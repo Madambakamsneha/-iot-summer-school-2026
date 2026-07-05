@@ -1,0 +1,30 @@
+# ============================================================
+# lint.yml
+# CI workflow that counts Arduino (.ino) sketch files in the
+# repository on every push, using scripts/count_ino.py.
+# ============================================================
+
+name: Lint
+
+on:
+  push:
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "**" ]
+
+jobs:
+  count-arduino-files:
+    name: Count Arduino Sketches
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run Arduino sketch counter
+        run: python scripts/count_ino.py
