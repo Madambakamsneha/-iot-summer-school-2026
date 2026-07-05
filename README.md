@@ -140,3 +140,8 @@ This project is licensed under the **MIT License** — see [`LICENSE`](LICENSE) 
 
 ## Testing Git Push
 This is a test commit.
+<<<<<<< HEAD
+=======
+
+Issue #1 resolved for Module 1 submission.
+>>>>>>> 3adae8f (fix: resolve potentiometer blink interval issue)
