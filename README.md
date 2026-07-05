@@ -143,5 +143,10 @@ This is a test commit.
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 Issue #1 resolved for Module 1 submission.
 >>>>>>> 3adae8f (fix: resolve potentiometer blink interval issue)
+=======
+# Issue resolved
+Issue #1 resolved for Module 1 submission.
+>>>>>>> b6b0bcd (docs: update README)
