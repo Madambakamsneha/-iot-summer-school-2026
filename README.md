@@ -137,3 +137,6 @@ open-source practices:
 ## 📄 License
 
 This project is licensed under the **MIT License** — see [`LICENSE`](LICENSE) for details.
+
+## Testing Git Push
+This is a test commit.
